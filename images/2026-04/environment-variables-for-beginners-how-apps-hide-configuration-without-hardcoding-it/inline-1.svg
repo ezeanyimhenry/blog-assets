@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+<rect width="1400" height="900" fill="white"/>
+<rect x="80" y="250" width="400" height="400" rx="30" fill="#eff6ff" stroke="#2563eb" stroke-width="5"/>
+<text x="280" y="340" text-anchor="middle" font-size="60" font-weight="700" font-family="Arial, Helvetica, sans-serif" fill="#1e3a8a">Your Code</text>
+<rect x="155" y="425" width="250" height="74" rx="14" fill="#dbeafe"/>
+<text x="280" y="470" text-anchor="middle" font-size="26" font-family="Arial, Helvetica, sans-serif" fill="#1d4ed8">process.env.API_KEY</text>
+<rect x="900" y="180" width="400" height="540" rx="30" fill="#f0fdf4" stroke="#16a34a" stroke-width="5"/>
+<text x="1100" y="270" text-anchor="middle" font-size="60" font-weight="700" font-family="Arial, Helvetica, sans-serif" fill="#166534">Environment</text>
+<rect x="970" y="350" width="260" height="70" rx="14" fill="#dcfce7"/><text x="1100" y="394" text-anchor="middle" font-size="28" font-family="Arial, Helvetica, sans-serif" fill="#166534">API_KEY=abc123</text>
+<rect x="970" y="460" width="260" height="70" rx="14" fill="#dcfce7"/><text x="1100" y="504" text-anchor="middle" font-size="28" font-family="Arial, Helvetica, sans-serif" fill="#166534">DB_HOST=localhost</text>
+<rect x="970" y="570" width="260" height="70" rx="14" fill="#dcfce7"/><text x="1100" y="614" text-anchor="middle" font-size="28" font-family="Arial, Helvetica, sans-serif" fill="#166534">APP_ENV=production</text>
+<line x1="480" y1="450" x2="900" y2="450" stroke="#7c3aed" stroke-width="8"/>
+<polygon points="900,450 860,430 860,470" fill="#7c3aed"/>
+<text x="690" y="395" text-anchor="middle" font-size="32" font-family="Arial, Helvetica, sans-serif" fill="#6d28d9">reads values at runtime</text>
+<text x="280" y="730" text-anchor="middle" font-size="32" font-family="Arial, Helvetica, sans-serif" fill="#1e40af">No secrets hardcoded here</text>
+<text x="1100" y="790" text-anchor="middle" font-size="32" font-family="Arial, Helvetica, sans-serif" fill="#166534">Config lives outside the code</text>
+</svg>
